@@ -15,4 +15,11 @@ public class Bomb
         this.position = position;
         this.lastObservedTime = lastObservedTime;
       }
+
+      public Bomb(Vector position)
+      {
+      this(position, 0);
+      }
   }
+
+

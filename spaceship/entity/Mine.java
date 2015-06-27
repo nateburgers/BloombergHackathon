@@ -10,7 +10,7 @@ public class Mine
     public final Vector position;
     public final Ship owner;
 
-    Mine(Vector position, Ship owner)
+    public Mine(Vector position, Ship owner)
       {
         this.position = position;
         this.owner = owner;
